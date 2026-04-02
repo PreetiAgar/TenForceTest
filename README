@@ -1,0 +1,9 @@
+One can run the test-
+1.from editor from testSuites folder and running as TestNG Suite
+2.From command prompt by using command mvn test clean
+
+
+Used testNG framework as it is easier to control execution and group tests
+
+Have used POM model with BaseTest and BasePage(Abstract Component) classes
+Can optimise the code further to put Javascript executor in reusable method.
