@@ -1,6 +1,7 @@
 One can run the test-
 1.from editor from testSuites folder and running as TestNG Suite
-2.From command prompt by using command mvn test clean
+2.From command prompt by using command mvn test clean or
+mvn test -PTenforce where -P indicates profile and Tenforce is the profile name given in pom.xml
 
 
 Used testNG framework as it is easier to control execution and group tests
